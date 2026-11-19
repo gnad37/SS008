@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sổ Tay Điện Tử — Trạm Cân Hài Hòa Lợi Ích | SS008</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/book.css">
+  <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand-group">
+        <div class="brand-seal" aria-hidden="true">SS008</div>
+        <div>
+          <h1 class="brand-title">Sổ Tay Điện Tử</h1>
+          <p class="brand-subtitle">Kinh tế chính trị Mác – Lênin • Hài hòa lợi ích kinh tế</p>
+        </div>
+      </div>
+
+      <nav class="nav-tabs" role="tablist" aria-label="Điều hướng ứng dụng">
+        <button
+          type="button"
+          class="nav-tab"
+          data-view="book"
+          role="tab"
+          aria-selected="false"
+          aria-controls="view-book"
+        >
+          Sổ Tay Môn Học
+        </button>
+        <button
+          type="button"
+          class="nav-tab is-active"
+          data-view="game"
+          role="tab"
+          aria-selected="true"
+          aria-controls="view-game"
+        >
+          Trạm Cân Hài Hòa
+        </button>
+        <button
+          type="button"
+          class="nav-tab"
+          data-view="leaderboard"
+          role="tab"
+          aria-selected="false"
+          aria-controls="view-leaderboard"
+        >
+          Bảng Xếp Hạng
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="site-shell">
+      <section id="view-game" role="tabpanel" aria-label="Minigame Trạm Cân Hài Hòa Lợi Ích">
+        <div id="game-root"></div>
+      </section>
+
+      <section id="view-leaderboard" role="tabpanel" aria-label="Bảng Xếp Hạng Trực Tiếp" hidden>
+        <div id="leaderboard-root"></div>
+      </section>
+
+      <section id="view-book" role="tabpanel" aria-label="Nội dung Sổ Tay Môn Học" hidden>
+        <div id="book-root">
+          <div class="book-placeholder card-paper">
+            <div class="book-placeholder-emblem" aria-hidden="true">§</div>
+            <span class="badge-academic">KHUNG SỔ TAY MÔN HỌC</span>
+            <h2>Sổ Tay Điện Tử Đang Sẵn Sàng Tích Hợp</h2>
+            <p>
+              Phần nội dung lý thuyết và giao diện lật trang của Sổ Tay sẽ được nạp trực tiếp từ các tệp nguồn dưới đây khi hoàn thiện nội dung:
+            </p>
+            <div class="book-files-tags" aria-label="Danh sách tệp chờ tích hợp">
+              <code>data/cover.md</code>
+              <code>data/content.md</code>
+              <code>data/summary.md</code>
+              <code>css/book.css</code>
+              <code>js/book.js</code>
+            </div>
+            <button type="button" id="btn-go-game" class="btn-primary-game">
+              Mở Minigame Trạm Cân Hài Hòa →
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-shell">
+      SS008 — Sổ Tay Điện Tử &amp; Minigame "Trạm Cân Hài Hòa Lợi Ích"
+    </div>
+  </footer>
+
+  <script src="js/md-parser.js" defer></script>
+  <script src="js/book.js" defer></script>
+  <script src="js/game.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>
