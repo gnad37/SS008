@@ -99,7 +99,7 @@
       throw new Error(`HTTP ${res.status} khi tải ${url}`);
     }
     const text = await res.text();
-    return text.replace(/\s*\[cite:\s*[\d,\s]+\]/g, '');
+    return text.replace(/\s*\[cite:\s*[\d,\s]+\]/g, '').replace(/\$\\rightarrow\$/g, '→');
   };
 
   BookController.prototype.renderLoading = function () {
