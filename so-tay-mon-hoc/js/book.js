@@ -98,7 +98,8 @@
     if (!res.ok) {
       throw new Error(`HTTP ${res.status} khi tải ${url}`);
     }
-    return res.text();
+    const text = await res.text();
+    return text.replace(/\s*\[cite:\s*[\d,\s]+\]/g, '');
   };
 
   BookController.prototype.renderLoading = function () {
