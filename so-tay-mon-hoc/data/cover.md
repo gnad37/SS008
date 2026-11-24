@@ -5,7 +5,7 @@
 
 - **Mã học phần:** SS008 — Kinh tế chính trị Mác – Lênin
 - **Đơn vị giảng dạy:** Khoa Chính trị - Hành chính (SPAS), ĐHQG-HCM
-- **Giảng viên hướng dẫn:** ThS. Lê Văn Thông
+- **Giảng viên hướng dẫn:** ThS. Nguyễn Anh Khoa
 - **Nhóm thực hiện:** Nhóm 9 (Chủ đề thảo luận CQ7)
 
 ---
