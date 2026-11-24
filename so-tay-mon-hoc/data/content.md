@@ -1,95 +1,85 @@
-## Phần 1: Kinh tế thị trường định hướng XHCN ở Việt Nam
+## Phần 1: Hoàn thiện thể chế kinh tế thị trường định hướng XHCN ở Việt Nam
 
-### 1.1. Từ kinh tế kế hoạch hóa tập trung đến tư duy Đổi mới
-- **Kinh tế kế hoạch hóa tập trung (KHH):** Áp dụng lần đầu năm 1928 (khởi xướng bởi E. Préobrajensky năm 1919, Stalin hoàn thiện)[cite: 8]. Nhà nước quyết định toàn bộ 3 vấn đề cơ bản (*sản xuất cái gì, như thế nào, cho ai*) và giá cả thông qua các ủy ban trung ương (`Gosplan`, `Gosten`, `Gossnab`, `Gostrud`)[cite: 10, 12, 13].
-- **Thành tựu lịch sử:** Giai đoạn 1928–1960 giúp Liên Xô duy trì tốc độ tăng trưởng khoảng **6%/năm**, vươn lên đứng đầu khối XHCN và trở thành siêu cường đối trọng với Mỹ[cite: 11].
-- **Hạn chế bộc lộ:** Chế độ công hữu tuyệt đối, phân phối bình quân bằng tem phiếu và điều hành bằng mệnh lệnh chủ quan đã triệt tiêu động lực sáng tạo và làm giảm hiệu quả kinh tế[cite: 10, 28].
-- **Bước ngoặt nhận thức qua các kỳ Đại hội Đảng ở Việt Nam:**
-  1. **Đại hội VI (1986):** Khởi xướng Đổi mới; thừa nhận kinh tế hàng hóa, cho phép kinh tế tư nhân, cá thể phát triển[cite: 16].
-  2. **Đại hội VII (1991):** Thực hiện nhất quán chính sách kinh tế nhiều thành phần vận hành theo cơ chế thị trường có sự quản lý của Nhà nước[cite: 16].
-  3. **Đại hội IX (2001) – Đại hội XII (2016):** Khẳng định và hoàn thiện mô hình **Kinh tế thị trường định hướng XHCN**[cite: 16].
-- **Nhận thức mới về Nhà nước và Thị trường:** Kinh tế thị trường là thành tựu chung của nhân loại (không phải sản phẩm riêng của CNTB); Nhà nước không đối lập hay xóa bỏ thị trường mà *"làm bạn"* với thị trường, hỗ trợ và khắc phục khuyết tật thị trường[cite: 18].
+### 1.1. Khái niệm và sự cần thiết phải hoàn thiện thể chế (5.2.1)
+- **Thể chế:** Là những quy tắc, luật pháp, bộ máy quản lý và cơ chế vận hành nhằm điều chỉnh hoạt động của con người trong một chế độ xã hội[cite: 44].
+- **Thể chế kinh tế:** Là hệ thống các quy tắc, luật pháp, bộ máy quản lý và cơ chế vận hành nhằm điều chỉnh hành vi của các chủ thể kinh tế, hoạt động sản xuất kinh doanh và các quan hệ kinh tế[cite: 44].
+- **Thể chế KTTT định hướng XHCN:** Là hệ thống đường lối, chủ trương chiến lược, hệ thống pháp luật và chính sách nhằm điều chỉnh các hoạt động, quan hệ lợi ích của các chủ thể kinh tế; hướng tới xây dựng nền kinh tế thị trường đồng bộ, hiện đại, góp phần thực hiện mục tiêu *dân giàu, nước mạnh, dân chủ, công bằng, văn minh*[cite: 44].
+- **Ba lý do tất yếu phải hoàn thiện thể chế:**
+  1. **Thể chế còn chưa đồng bộ:** Một số quy định, cơ chế quản lý chưa thống nhất, chưa phát huy đầy đủ ưu điểm của cơ chế thị trường[cite: 44].
+  2. **Hệ thống thể chế còn chưa đầy đủ:** Pháp luật, chính sách cần tiếp tục bổ sung để Nhà nước thực hiện tốt vai trò kiến tạo, phục vụ lợi ích nhân dân[cite: 44, 45].
+  3. **Hiệu lực, hiệu quả thực thi còn hạn chế:** Các yếu tố và các loại thị trường mới còn sơ khai, nhiều khiếm khuyết nên cần hoàn thiện để thị trường vận hành thông suốt[cite: 45].
 
-### 1.2. Khái niệm và tính tất yếu khách quan
-> **Khái niệm (Văn kiện Đại hội XII):** Kinh tế thị trường định hướng XHCN ở Việt Nam là nền kinh tế vận hành đầy đủ, đồng bộ theo các quy luật của kinh tế thị trường, đồng thời bảo đảm định hướng XHCN phù hợp với từng giai đoạn phát triển của đất nước; là nền kinh tế hiện đại và hội nhập quốc tế; có sự quản lý của Nhà nước pháp quyền XHCN do Đảng Cộng sản Việt Nam lãnh đạo, nhằm mục tiêu *“Dân giàu, nước mạnh, dân chủ, công bằng, văn minh”*[cite: 19].
+### 1.2. Hoàn thiện thể chế về sở hữu và phát triển các thành phần kinh tế (5.2.2.1)
+Bao gồm **7 nội dung trọng tâm** nhằm bảo vệ quyền tài sản và tạo môi trường cạnh tranh bình đẳng[cite: 45, 47]:
+1. **Quyền tài sản:** Quy định đầy đủ quyền sở hữu, sử dụng, định đoạt và hưởng lợi từ tài sản của Nhà nước, tổ chức, cá nhân một cách công khai, minh bạch[cite: 45].
+2. **Pháp luật về đất đai và tài nguyên:** Nâng cao hiệu quả quản lý, huy động, phân bổ, sử dụng đất đai; khắc phục tình trạng lãng phí[cite: 45].
+3. **Pháp luật về tài nguyên thiên nhiên:** Hoàn thiện quy định khai thác, sử dụng hợp lý và bền vững[cite: 45, 46].
+4. **Quản lý tài sản công:** Nâng cao hiệu quả đầu tư vốn nhà nước; phân biệt rõ tài sản phục vụ kinh doanh với tài sản phục vụ chính sách xã hội[cite: 46].
+5. **Sở hữu trí tuệ:** Khuyến khích sáng tạo, hoàn thiện pháp luật phù hợp với kinh tế số, tài sản số, trí tuệ nhân tạo (AI) và thương mại điện tử[cite: 46].
+6. **Hợp đồng và giải quyết tranh chấp:** Thống nhất quy định giao kết hợp đồng, giải quyết tranh chấp dân sự và phát triển hệ thống đăng ký bất động sản[cite: 46].
+7. **Phát triển các thành phần kinh tế và loại hình doanh nghiệp:**
+   - Bảo đảm bình đẳng pháp lý và quyền tự do đầu tư, kinh doanh giữa các thành phần kinh tế[cite: 46].
+   - Hoàn thiện thể chế cạnh tranh lành mạnh, sửa đổi quy định bất hợp lý trong đấu thầu và đầu tư công[cite: 46].
+   - Cơ cấu lại **doanh nghiệp nhà nước** (tập trung lĩnh vực then chốt, quốc phòng, an ninh), đổi mới **đơn vị sự nghiệp công lập**, phát triển **kinh tế tập thể** gắn với chuỗi giá trị nông sản[cite: 46, 47].
+   - Thúc đẩy **kinh tế tư nhân** trở thành một động lực quan trọng, hỗ trợ doanh nghiệp nhỏ và vừa[cite: 47].
+   - Chọn lọc dự án **FDI** có chuyển giao công nghệ, quản trị hiện đại và tăng liên kết với doanh nghiệp trong nước[cite: 47].
 
-- **Tính tất yếu khách quan của việc phát triển KTTT định hướng XHCN (3 căn cứ):**
-  1. Phù hợp với tính quy luật phát triển khách quan của lịch sử[cite: 20].
-  2. Phát huy tính ưu việt của kinh tế thị trường trong phân bổ nguồn lực và thúc đẩy tăng trưởng[cite: 20].
-  3. Phù hợp với nguyện vọng chính đáng của nhân dân hướng tới mục tiêu dân giàu, nước mạnh[cite: 20].
-
-### 1.3. Năm đặc trưng cơ bản của KTTT định hướng XHCN ở Việt Nam
-1. **Về mục tiêu:** Phát triển lực lượng sản xuất, xây dựng cơ sở vật chất – kỹ thuật của CNXH; thực hiện *“Dân giàu, nước mạnh, dân chủ, công bằng, văn minh”*[cite: 21].
-2. **Về quan hệ sở hữu và thành phần kinh tế:** Tồn tại nhiều hình thức sở hữu (công hữu, tư hữu, hỗn hợp) và nhiều thành phần kinh tế, trong đó **kinh tế nhà nước giữ vai trò chủ đạo**[cite: 10, 21].
-3. **Về quan hệ quản lý nền kinh tế:** Đảng Cộng sản Việt Nam lãnh đạo; Nhà nước pháp quyền XHCN quản lý nền kinh tế bằng pháp luật, chiến lược, quy hoạch, kế hoạch và chính sách[cite: 16, 21].
-4. **Về quan hệ phân phối:** Thực hiện đa dạng các hình thức phân phối: phân phối theo kết quả lao động, theo hiệu quả kinh tế, theo mức đóng góp vốn cùng các nguồn lực khác và phân phối thông qua phúc lợi xã hội[cite: 21].
-5. **Về quan hệ giữa tăng trưởng kinh tế và công bằng xã hội:** Gắn kết chặt chẽ tăng trưởng kinh tế với bảo đảm tiến bộ và công bằng xã hội ngay trong từng bước và từng chính sách phát triển[cite: 21, 24].
-
----
-
-## Phần 2: Hoàn thiện thể chế kinh tế thị trường định hướng XHCN
-
-### 2.1. Khái niệm và sự cần thiết phải hoàn thiện thể chế
-- **Thể chế:** Là những quy tắc, luật pháp, bộ máy quản lý và cơ chế vận hành nhằm điều chỉnh các hoạt động của con người trong một chế độ xã hội[cite: 22].
-- **Thể chế kinh tế:** Là hệ thống quy tắc, luật pháp, bộ máy quản lý và cơ chế vận hành nhằm điều chỉnh hành vi của các chủ thể kinh tế, các hành vi sản xuất kinh doanh và các quan hệ kinh tế[cite: 22].
-- **Vì sao phải tiếp tục hoàn thiện thể chế KTTT định hướng XHCN?** Bởi vì hệ thống thể chế kinh tế ở nước ta hiện nay vẫn còn **chưa đồng bộ**, **chưa đầy đủ** và thực thi còn **kém hiệu quả**[cite: 23].
-
-### 2.2. Năm nội dung hoàn thiện thể chế (Nghị quyết 11-NQ/TW)
-1. **Hoàn thiện thể chế về sở hữu và phát triển các thành phần kinh tế:** Bảo đảm quyền tài sản, quyền tự do kinh doanh bình đẳng giữa các thành phần kinh tế[cite: 24].
-2. **Hoàn thiện thể chế để phát triển đồng bộ các yếu tố thị trường và các loại thị trường:** Thị trường hàng hóa – dịch vụ, thị trường tài chính, bất động sản, khoa học – công nghệ và sức lao động[cite: 24].
-3. **Hoàn thiện thể chế để đảm bảo gắn tăng trưởng kinh tế với bảo đảm tiến bộ và công bằng xã hội:** Kết hợp hài hòa mục tiêu hiệu quả kinh tế với an sinh xã hội[cite: 24].
-4. **Hoàn thiện thể chế thúc đẩy hội nhập kinh tế quốc tế:** Nội luật hóa các cam kết quốc tế (FTA, CPTPP...) và nâng cao năng lực cạnh tranh quốc gia[cite: 24, 28].
-5. **Hoàn thiện thể chế nâng cao năng lực hệ thống chính trị:** Nâng cao năng lực lãnh đạo của Đảng, hiệu lực quản lý của Nhà nước và phát huy quyền làm chủ của nhân dân[cite: 24].
+### 1.3. Phát triển đồng bộ thị trường, gắn tăng trưởng với công bằng và nâng cao năng lực hệ thống chính trị (5.2.2.2 – 5.2.2.4)
+- **Phát triển đồng bộ yếu tố và các loại thị trường:** Bảo đảm các yếu tố (`hàng hóa`, `giá cả`, `cạnh tranh`, `cung – cầu`) và các thị trường cơ bản (`hàng hóa – dịch vụ`, `vốn`, `công nghệ`, `lao động`) vận hành thông suốt[cite: 47, 60].
+- **Gắn tăng trưởng kinh tế với công bằng xã hội và hội nhập quốc tế:** Nội luật hóa cam kết quốc tế, đa dạng hóa thị trường xuất nhập khẩu, không phụ thuộc vào một số ít đối tác[cite: 47, 48].
+- **Nâng cao năng lực hệ thống chính trị:** Phát huy đồng bộ 3 trụ cột vai trò: **Đảng** nâng cao năng lực lãnh đạo → **Nhà nước** xây dựng và tổ chức thực thi pháp luật → **Nhân dân** phát huy quyền làm chủ[cite: 48].
 
 ---
 
-## Phần 3: Các quan hệ lợi ích kinh tế ở Việt Nam
+## Phần 2: Cơ sở lý luận về "Cái bánh kinh tế" và phân phối thu nhập
 
-### 3.1. Lợi ích kinh tế: Bản chất, biểu hiện và vai trò
-- **Bản chất:** Lợi ích kinh tế là **lợi ích vật chất**, phản ánh mục đích và động cơ của các quan hệ giữa các chủ thể trong nền sản xuất xã hội[cite: 25].
-- **Biểu hiện cụ thể gắn với từng chủ thể:**
-  - Chủ doanh nghiệp nhận được **Lợi nhuận**[cite: 26].
-  - Người lao động nhận được **Tiền công** (lương, thưởng)[cite: 26, 30].
-  - Người cho vay nhận được **Lợi tức**[cite: 26].
-  - Người cho thuê (đất đai, tư liệu sản xuất) nhận được **Địa tô**[cite: 26].
-- **Vai trò:** Là **động lực trực tiếp** của các chủ thể và hoạt động kinh tế – xã hội; đồng thời là cơ sở vật chất để thúc đẩy sự phát triển các lợi ích chính trị, văn hóa, tinh thần[cite: 27].
+> **Câu hỏi trọng tâm:** *"Cái bánh kinh tế" của Việt Nam phải chia như thế nào để không triệt tiêu mất động lực của các chủ thể, đồng thời vẫn đảm bảo công bằng?*[cite: 48]
 
-### 3.2. Quan hệ lợi ích kinh tế và các nhân tố ảnh hưởng
-- **Khái niệm:** Là sự thiết lập những tương tác giữa con người với con người, giữa các cộng đồng người, tổ chức kinh tế và quốc gia nhằm xác lập các lợi ích kinh tế gắn với trình độ phát triển của lực lượng sản xuất và kiến trúc thượng tầng[cite: 28].
-- **Bốn nhân tố ảnh hưởng trực tiếp:**
-  1. **Trình độ phát triển của lực lượng sản xuất:** Quyết định số lượng và chất lượng hàng hóa, dịch vụ để thỏa mãn nhu cầu vật chất[cite: 29].
-  2. **Địa vị của chủ thể trong hệ thống quan hệ sản xuất:** Vị trí sở hữu và quản lý quyết định tỷ lệ phân chia lợi ích[cite: 29].
-  3. **Chính sách phân phối thu nhập của Nhà nước:** Thuế, tiền lương tối thiểu, trợ cấp làm thay đổi tương quan thu nhập giữa các chủ thể[cite: 29].
-  4. **Hội nhập kinh tế quốc tế:** Mở rộng cơ hội thương mại, đầu tư nhưng đồng thời tạo áp lực cạnh tranh đa chiều[cite: 29].
-- **Các quan hệ lợi ích kinh tế cơ bản (luôn tồn tại hai mặt: Thống nhất và Mâu thuẫn):**
-  - Giữa **người lao động** và **người sử dụng lao động** (cùng hợp tác tạo ra giá trị, nhưng mâu thuẫn trong phân chia lợi nhuận và tiền lương)[cite: 30].
-  - Giữa **những người sử dụng lao động với nhau** (vừa cạnh tranh giành thị phần, vừa liên kết qua các hiệp hội như VAMA, VASEP)[cite: 31].
-  - Giữa **những người lao động với nhau** (cạnh tranh tìm việc làm, đồng thời đoàn kết trong tổ chức công đoàn)[cite: 32].
-  - Giữa **lợi ích cá nhân, lợi ích nhóm và lợi ích xã hội**[cite: 33].
+### 2.1. Giải mã hình ảnh ẩn dụ "Cái bánh kinh tế"
+- **Cái bánh kinh tế:** Chỉ tổng giá trị của cải, thu nhập và thành quả mà toàn xã hội tạo ra trong một khoảng thời gian nhất định[cite: 48].
+- **Chia bánh:** Quá trình phân phối thành quả kinh tế giữa các chủ thể (Nhà nước, doanh nghiệp, người lao động và các tầng lớp dân cư)[cite: 48].
+- **Miếng bánh:** Phần lợi ích kinh tế cụ thể mà mỗi chủ thể nhận được qua tiền lương, lợi nhuận, thuế và phúc lợi xã hội[cite: 48].
 
-### 3.3. Phương thức thực hiện và vai trò của Nhà nước
-- **Hai phương thức thực hiện lợi ích kinh tế:**
-  1. **Theo nguyên tắc thị trường:** Phân chia dựa trên tài năng, công sức và mức đóng góp nguồn lực[cite: 34].
-  2. **Theo chính sách của Nhà nước và vai trò của các tổ chức xã hội:** Thông qua thuế, trợ cấp ngân sách, bảo hiểm xã hội và hoạt động hỗ trợ, từ thiện[cite: 34].
-- **Bốn vai trò của Nhà nước trong bảo đảm hài hòa các quan hệ lợi ích:**
-  1. **Bảo vệ lợi ích hợp pháp**, tạo môi trường thuận lợi cho hoạt động tìm kiếm lợi ích chính đáng của các chủ thể[cite: 35].
-  2. **Điều hòa lợi ích** giữa cá nhân – doanh nghiệp – xã hội[cite: 35].
-  3. **Kiểm soát, ngăn ngừa** các quan hệ lợi ích tiêu cực (tham nhũng, buôn lậu, lợi ích nhóm trục lợi)[cite: 35].
-  4. **Giải quyết kịp thời những mâu thuẫn** phát sinh trong quan hệ lợi ích kinh tế[cite: 35].
+### 2.2. Ba hình thức phân phối cơ bản ở Việt Nam
+1. **Phân phối theo kết quả lao động và hiệu quả kinh tế:** Người lao động hưởng lương theo năng suất, chất lượng; doanh nghiệp hưởng lợi ích theo hiệu quả sản xuất kinh doanh[cite: 49].
+2. **Phân phối theo mức đóng góp vốn và các nguồn lực khác:** Người góp vốn, tài sản hợp pháp nhận lợi tức, cổ tức tương ứng nhằm khuyến khích đầu tư[cite: 49].
+3. **Phân phối thông qua hệ thống an sinh xã hội và phúc lợi xã hội:** Nhà nước dùng ngân sách hỗ trợ người nghèo, nhóm yếu thế và bảo đảm tiếp cận giáo dục, y tế, bảo hiểm xã hội[cite: 49].
+
+### 2.3. Vai trò 5 chủ thể và mối quan hệ Tăng trưởng – Công bằng
+- **5 chủ thể tham gia:** `Người lao động` (nhận tiền lương) • `Doanh nghiệp` (nhận lợi nhuận) • `Nhà đầu tư` (nhận lợi tức) • `Nhà nước` (thu thuế và điều tiết) • `Người dân & xã hội` (thụ hưởng thu nhập và phúc lợi)[cite: 49].
+- **Mối quan hệ biện chứng:** Tăng trưởng kinh tế tạo nguồn lực vật chất để thực hiện công bằng xã hội; ngược lại, công bằng xã hội tạo ổn định và nâng cao chất lượng nhân lực để thúc đẩy tăng trưởng bền vững[cite: 49, 50].
 
 ---
 
-## Phần 4: Giải đáp thảo luận thực tiễn (Câu hỏi CQ7)
+## Phần 3: Hai trụ cột phân phối hài hòa (Động lực & Công bằng)
 
-> **Vấn đề thảo luận CQ7 (Nhóm 9):** *"Cái bánh kinh tế" của Việt Nam phải chia như thế nào để không triệt tiêu mất động lực của các chủ thể, đồng thời vẫn đảm bảo công bằng?*[cite: 37]
+### 3.1. Vế 1 — Giữ vững động lực của các chủ thể (Làm "to cái bánh")
+1. **Phân phối gắn với kết quả lao động và mức đóng góp:** Tiền lương gắn với năng suất và chất xám; doanh nghiệp hiệu quả được giữ lợi nhuận tái đầu tư; nhà đầu tư được hưởng lợi tức xứng đáng với rủi ro[cite: 50].
+2. **Bảo đảm quyền tự chủ và lợi ích hợp pháp:** Người lao động tự do chọn việc làm; doanh nghiệp tự chủ phương án kinh doanh; nhà đầu tư được bảo hộ quyền sở hữu tài sản[cite: 50, 51].
+3. **Tạo môi trường cạnh tranh bình đẳng, khuyến khích đổi mới sáng tạo:** Không phân biệt đối xử giữa các thành phần kinh tế, chống độc quyền, bảo vệ sở hữu trí tuệ và hỗ trợ doanh nghiệp vừa và nhỏ tiếp cận vốn, công nghệ[cite: 51].
+4. **Gắn lợi ích trước mắt với lợi ích lâu dài:** Doanh nghiệp trích lợi nhuận đổi mới công nghệ; Nhà nước đầu tư giáo dục, khoa học – công nghệ và hạ tầng để cái bánh tiếp tục lớn lên[cite: 51].
 
-### Giải pháp kết hợp hài hòa 2 tầng phân phối:
-1. **Tầng 1 — Phân phối lần đầu theo nguyên tắc thị trường (Giữ vững động lực làm "to cái bánh"):**
-   - Tôn trọng quy luật giá trị và cạnh tranh: trả công tương xứng với năng suất lao động, hàm lượng chất xám, vốn đầu tư và mức độ chấp nhận rủi ro của doanh nghiệp[cite: 10, 21, 34].
-   - Kiên quyết loại bỏ cơ chế *"phân phối cào bằng"* của thời kỳ kế hoạch hóa tập trung[cite: 28] — ai tạo ra giá trị gia tăng lớn hơn, hiệu quả cao hơn thì được hưởng phần thu nhập tương xứng hơn[cite: 21, 34].
-2. **Tầng 2 — Phân phối lại thông qua điều tiết của Nhà nước (Bảo đảm công bằng xã hội):**
-   - Sử dụng công cụ **thuế lũy tiến** (thuế thu nhập cá nhân, thuế thu nhập doanh nghiệp, thuế tiêu thụ đặc biệt) để điều tiết hợp lý một phần thu nhập cao vào ngân sách nhà nước[cite: 34, 35].
-   - Tái đầu tư nguồn lực ngân sách vào **y tế, giáo dục công lập, hạ tầng thiết yếu, quỹ an sinh xã hội** và chính sách hỗ trợ vùng khó khăn, nhóm yếu thế[cite: 21, 34].
-3. **Nguyên tắc cân bằng cốt lõi:**
-   - Nếu **chỉ chạy theo thị trường** (đĩa Động lực quá nặng): Bất bình đẳng gia tăng, nảy sinh xung đột xã hội, triệt tiêu sự ổn định bền vững.
-   - Nếu **can thiệp cào bằng quá mức** (đĩa An sinh bóp nghẹt thị trường): Doanh nghiệp ngại đầu tư, người giỏi mất động lực cống hiến, *"cái bánh kinh tế"* thu nhỏ lại[cite: 28].
+### 3.2. Vế 2 — Đảm bảo cân bằng và công bằng xã hội (Chia bánh hợp lý)
+1. **Điều tiết và phân phối lại qua công cụ của Nhà nước:** Áp dụng thuế thu nhập cá nhân theo biểu thuế lũy tiến từng phần; dùng ngân sách hỗ trợ nhóm yếu thế; chống trốn thuế, tham nhũng và trục lợi[cite: 52].
+2. **Bảo đảm cơ hội tiếp cận nguồn lực phát triển:** Mở rộng cơ hội tiếp cận giáo dục, đào tạo nghề, y tế, vốn và đầu tư hạ tầng cho vùng khó khăn[cite: 52].
+3. **Phát triển hệ thống an sinh và phúc lợi xã hội:** Bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp, trợ cấp rủi ro và dịch vụ công thiết yếu[cite: 52].
+4. **Kết hợp hài hòa 3 cấp độ lợi ích:** Hài hòa giữa **lợi ích cá nhân**, **lợi ích tập thể (doanh nghiệp)** và **lợi ích toàn xã hội**[cite: 52, 53].
+
+---
+
+## Phần 4: Công thức phân phối "Cái bánh kinh tế" (Mô hình 2 đĩa)
+
+### 4.1. Công thức tổng quát (Lý tưởng)
+> **Tổng thu nhập của một chủ thể** = **Phân phối thị trường (Đĩa Động lực)** + **Phân phối xã hội (Đĩa Cân bằng)**[cite: 53, 54]
+
+- **Đĩa Động lực (Phân phối lần đầu theo thị trường):**
+  - `= Phân phối theo kết quả lao động (Tiền lương, tiền công) + Phân phối theo hiệu quả kinh tế (Lợi nhuận) + Phân phối theo đóng góp vốn & nguồn lực khác (Lợi tức, cổ tức, địa tô)`[cite: 53].
+- **Đĩa Cân bằng (Phân phối lại qua xã hội):**
+  - `= Phúc lợi xã hội + An sinh xã hội + Trợ cấp có mục tiêu − Thuế điều tiết`[cite: 53].
+- **Cơ chế điều tiết hai chiều:** Với người thu nhập thấp, vế phân phối xã hội thường **dương (+)** vì nhận hỗ trợ nhiều hơn thuế nộp; với người thu nhập cao, vế này có thể **âm (−)** vì đóng thuế lũy tiến nhiều hơn phần hỗ trợ trực tiếp — Nhà nước làm cầu nối luân chuyển nguồn lực chứ không giữ lại cho riêng mình[cite: 54].
+
+### 4.2. Thực tiễn vận dụng công thức tại Việt Nam hiện nay
+> **Tổng thu nhập tại Việt Nam** = **Phân phối thị trường (trong khuôn khổ pháp luật của Nhà nước)** + **Phân phối xã hội (qua thuế, ngân sách, bảo hiểm và chính sách xã hội)**[cite: 55]
+
+- **Điểm khác biệt cốt lõi của Việt Nam:** Nhà nước không chỉ can thiệp ở bước *phân phối lại* (sau khi có thu nhập), mà tham gia định hướng **ngay từ vế phân phối thị trường** thông qua hệ thống pháp luật, bảo hộ quyền sở hữu, quy định lương tối thiểu và kiến tạo môi trường cạnh tranh lành mạnh[cite: 55, 56].
+- **Nhận xét đánh giá:** Mô hình 2 đĩa của Việt Nam đi đúng quy luật khách quan khi khắc phục được bệnh *"cào bằng"* thời bao cấp nhưng vẫn tránh được phân hóa giàu nghèo cực đoan của thị trường tự phát[cite: 53, 54, 55]. Tuy nhiên, nếu thể chế pháp lý chậm hoàn thiện (còn tình trạng trốn thuế, nợ bảo hiểm xã hội, đầu cơ thổi giá đất hoặc lợi ích nhóm), chiếc cân sẽ bị lệch làm suy giảm cả động lực sản xuất lẫn niềm tin xã hội[cite: 57, 58].
