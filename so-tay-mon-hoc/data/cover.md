@@ -11,8 +11,8 @@
 ---
 
 ### Lộ trình nội dung trong Sổ tay
-1. **Phần 1:** Kinh tế thị trường định hướng XHCN ở Việt Nam (Từ mô hình kế hoạch hóa tập trung đến Đổi mới 1986 và 5 đặc trưng cốt lõi).
-2. **Phần 2:** Hoàn thiện thể chế kinh tế thị trường định hướng XHCN ở Việt Nam (Sự cần thiết và 5 nội dung hoàn thiện theo Nghị quyết 11-NQ/TW).
-3. **Phần 3:** Các quan hệ lợi ích kinh tế ở Việt Nam và vai trò điều hòa của Nhà nước.
-4. **Phần 4:** Giải đáp vấn đề thực tiễn **CQ7** — Bài toán chia *"Cái bánh kinh tế"* vừa tạo động lực phát triển, vừa bảo đảm công bằng xã hội.
-5. **Tổng kết:** Bảng đối chiếu nhanh, công thức ghi nhớ trọng tâm và từ khóa ôn tập trước khi vào Minigame **Trạm Cân Hài Hòa**.
+1. **Phần 1:** Hoàn thiện thể chế kinh tế thị trường định hướng XHCN ở Việt Nam (Sự cần thiết và 4 nhóm nội dung hoàn thiện cốt lõi).
+2. **Phần 2:** Cơ sở lý luận về *"Cái bánh kinh tế"* và phân phối thu nhập trong nền kinh tế thị trường định hướng XHCN.
+3. **Phần 3:** Hai trụ cột phân phối hài hòa: Giữ vững động lực phát triển & Đảm bảo công bằng xã hội.
+4. **Phần 4:** Công thức phân phối *"Cái bánh kinh tế"* tổng quát (Mô hình 2 đĩa) và thực tiễn vận dụng tại Việt Nam.
+5. **Tổng kết:** Cẩm nang ghi nhớ nhanh, đối chiếu công thức và từ khóa trọng tâm trước khi vào Minigame **Trạm Cân Hài Hòa**.
