@@ -85,3 +85,34 @@
 - [C*] (+10A, +10B) Tăng cường thanh tra, xử lý vi phạm, buộc nộp đủ thuế và đóng bảo hiểm xã hội.
 - [D] (+0A, +55B) Đóng cửa mọi doanh nghiệp có sai phạm.
 **Giải thích:** Thực thi pháp luật nghiêm minh giúp bảo vệ nguồn quỹ an sinh và môi trường cạnh tranh công bằng, không triệt tiêu doanh nghiệp làm ăn chính đáng.
+
+## Câu 9
+**Tình huống:** Trong quá trình vận hành nền kinh tế thị trường định hướng XHCN ở Việt Nam, một số quy định pháp luật còn chồng chéo và các loại thị trường mới như thị trường vốn, công nghệ vẫn đang ở giai đoạn sơ khai.
+**Câu hỏi:** Đâu là nguyên nhân cốt lõi khiến Việt Nam cần tiếp tục hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa?
+- [A] (-10A, -5B) Tất cả các loại thị trường đã phát triển hoàn chỉnh nên cần thu hẹp vai trò quản lý.
+- [B] (-15A, +5B) Nhà nước không còn vai trò quản lý nền kinh tế trong thời kỳ hội nhập.
+- [C*] (+10A, +10B) Hệ thống thể chế còn thiếu đồng bộ, chưa đầy đủ và hiệu lực, hiệu quả thực thi còn hạn chế.
+- [D] (+10A, -15B) Các doanh nghiệp không cần tuân thủ pháp luật kinh doanh để tự do cạnh tranh.
+**Giải thích:** Hệ thống thể chế kinh tế thị trường ở Việt Nam vẫn còn những hạn chế về tính đồng bộ, sự đầy đủ và hiệu lực thực thi, đòi hỏi phải tiếp tục hoàn thiện để nâng cao hiệu quả quản lý và phát triển kinh tế bền vững.
+
+---
+
+## Câu 10
+**Tình huống:** Doanh nghiệp công nghệ nội địa phát triển thành công phần mềm trí tuệ nhân tạo nhưng lo ngại bị sao chép trái phép, đồng thời gặp vướng mắc trong thủ tục định giá tài sản số để vay vốn mở rộng sản xuất.
+**Câu hỏi:** Nội dung nào sau đây thuộc việc hoàn thiện thể chế về sở hữu nhằm giải quyết vướng mắc trên?
+- [A] (-10A, +5B) Chỉ tập trung phát triển doanh nghiệp nhà nước ở mọi lĩnh vực công nghệ.
+- [B*] (+12A, +8B) Bảo vệ quyền sở hữu tài sản, quyền sở hữu trí tuệ phù hợp với kinh tế số và hoàn thiện pháp luật về đất đai, tài nguyên.
+- [C] (-15A, -10B) Hạn chế quyền sở hữu tài sản của tổ chức và cá nhân để tập trung vào công hữu.
+- [D] (-10A, -15B) Loại bỏ vai trò của pháp luật trong giải quyết tranh chấp dân sự và thương mại.
+**Giải thích:** Hoàn thiện thể chế về sở hữu bao gồm bảo vệ quyền tài sản, hoàn thiện pháp luật về đất đai, tài nguyên, tài sản công, sở hữu trí tuệ (đặc biệt trong kinh tế số, AI) và giải quyết tranh chấp, tạo niềm tin cho các chủ thể đầu tư.
+
+---
+
+## Câu 11
+**Tình huống:** Chính phủ triển khai gói giải pháp đồng bộ hóa hạ tầng pháp lý để các nguồn lực trong nền kinh tế được luân chuyển thông suốt giữa khu vực sản xuất, tài chính và nghiên cứu khoa học.
+**Câu hỏi:** Nhóm nào sau đây bao gồm các loại thị trường cơ bản cần được hoàn thiện và phát triển đồng bộ ở Việt Nam?
+- [A*] (+10A, +10B) Thị trường hàng hóa – dịch vụ, thị trường vốn, thị trường công nghệ và thị trường lao động.
+- [B] (+5A, -5B) Giá cả, cạnh tranh, cung và cầu trên thị trường tự do.
+- [C] (-5A, +5B) Doanh nghiệp nhà nước, doanh nghiệp tư nhân và hợp tác xã.
+- [D] (-5A, -5B) Quyền sở hữu, quyền sử dụng và quyền định đoạt tài sản.
+**Giải thích:** Thị trường hàng hóa – dịch vụ, vốn, công nghệ và lao động là các loại thị trường cơ bản cần phát triển đồng bộ; trong khi giá cả, cạnh tranh, cung và cầu là các yếu tố thuộc cơ chế vận hành thị trường.
