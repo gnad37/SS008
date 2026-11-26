@@ -480,6 +480,11 @@
   color: #ffffff;
 }
 
+.delta-pop.is-negative {
+  background: var(--danger);
+  color: #ffffff;
+}
+
 .delta-pop.is-active {
   animation: floatDelta 1.35s ease-out forwards;
 }
@@ -554,6 +559,11 @@
   border-radius: 999px;
   background: var(--bg-paper-soft);
   color: var(--bg-navy);
+}
+
+.last-delta.is-neg {
+  background: var(--danger-soft);
+  color: var(--danger);
 }
 
 /* Harmony Score Card */
@@ -708,7 +718,7 @@
 
 .step-dots {
   display: grid;
-  grid-template-columns: repeat(8, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
   gap: 6px;
 }
 
@@ -858,6 +868,11 @@
 .delta-chip.chip-b.has-val {
   background: var(--pan-b-soft);
   color: var(--pan-b);
+}
+
+.delta-chip.is-neg {
+  background: var(--danger-soft);
+  color: var(--danger);
 }
 
 .choice-btn.is-optimal {
@@ -1282,6 +1297,11 @@
   flex-wrap: wrap;
 }
 
+.lb-title-row > div:first-child {
+  flex: 1 1 420px;
+  min-width: 0;
+}
+
 .lb-title {
   margin: 10px 0 6px;
   font-family: var(--font-serif);
@@ -1301,6 +1321,7 @@
   flex-direction: column;
   align-items: flex-end;
   gap: 6px;
+  flex-shrink: 0;
 }
 
 .live-indicator {
@@ -1533,12 +1554,15 @@
 
 /* Top-3 Podium */
 .lb-podium {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 14px;
 }
 
 .podium-card {
+  flex: 1 1 260px;
+  max-width: 380px;
   padding: 18px 20px;
   text-align: center;
   background: #fffdf7;
@@ -1779,9 +1803,12 @@
   .reg-grid,
   .summary-kpis,
   .summary-kpis.summary-kpis-5,
-  .lb-podium,
   .lb-stats-grid {
     grid-template-columns: 1fr;
+  }
+
+  .podium-card {
+    max-width: 100%;
   }
 
   .scenario-panel,

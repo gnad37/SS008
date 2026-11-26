@@ -41,6 +41,40 @@
     this.isTocOpen = false;
   }
 
+  let activeBookKeyHandler = null;
+
+  function highlightSearchHtml(html, query) {
+    const cleanQuery = String(query || '').trim();
+    if (!cleanQuery || cleanQuery.length < 2) return html;
+
+    const escapeHtml = global.MDParser
+      ? global.MDParser.escapeHtml
+      : (s) =>
+          String(s ?? '')
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
+
+    const escapedQuery = escapeHtml(cleanQuery);
+    const escapedPattern = escapedQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`(${escapedPattern})`, 'gi');
+
+    // Chỉ highlight phần văn bản ngoài thẻ HTML và bỏ qua HTML entities (&quot;, &amp;...)
+    return html.replace(/(>[^<]+<)/g, (segment) => {
+      const inner = segment.slice(1, -1);
+      const parts = inner.split(/(&[a-zA-Z0-9#]+;)/g);
+      const highlighted = parts
+        .map((part) => {
+          if (/^&[a-zA-Z0-9#]+;$/.test(part)) return part;
+          return part.replace(regex, (match) => `<mark class="book-highlight">${match}</mark>`);
+        })
+        .join('');
+      return `>${highlighted}<`;
+    });
+  }
+
   BookController.prototype.init = async function () {
     this.renderLoading();
 
@@ -84,7 +118,8 @@
       this.pages = pages;
       this.currentIndex = 0;
       this.bindGlobalKeys();
-      this.render();
+      this.mountShell();
+      this.renderDynamic();
     } catch (err) {
       this.renderError(
         'Không thể tải dữ liệu Sổ Tay. Nếu bạn đang mở trực tiếp file HTML từ ổ đĩa (file://), hãy chạy qua Live Server hoặc HTTP server cục bộ để trình duyệt cho phép đọc tệp .md.'
@@ -136,25 +171,14 @@
     if (index < 0 || index >= this.pages.length) return;
     this.currentIndex = index;
     this.isTocOpen = false;
-    this.render();
+    this.renderDynamic();
     const sheet = this.root.querySelector('.book-page-sheet');
     if (sheet) {
       sheet.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
   };
 
-  BookController.prototype.highlightSearch = function (html, query) {
-    const cleanQuery = query.trim();
-    if (!cleanQuery || cleanQuery.length < 2) return html;
-
-    const escapedPattern = cleanQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const regex = new RegExp(`(${escapedPattern})`, 'gi');
-
-    // Chỉ highlight phần văn bản ngoài thẻ HTML
-    return html.replace(/(>[^<]+<)/g, (segment) =>
-      segment.replace(regex, '<mark class="book-highlight">$1</mark>')
-    );
-  };
+  BookController.prototype.highlightSearch = highlightSearchHtml;
 
   BookController.prototype.getMatchingPageIndices = function () {
     const q = this.searchQuery.trim().toLowerCase();
@@ -168,7 +192,56 @@
     return matches;
   };
 
-  BookController.prototype.render = function () {
+  BookController.prototype.mountShell = function () {
+    const escapeHtml = global.MDParser.escapeHtml;
+    this.root.innerHTML = `
+      <div class="book-shell">
+        <div class="book-toolbar">
+          <button
+            type="button"
+            class="book-btn book-btn-outline book-toc-toggle"
+            data-action="toggle-toc"
+            aria-expanded="false"
+          >
+            <span data-role="toc-toggle-label">☰ Mục lục</span>
+          </button>
+
+          <div class="book-search-box">
+            <input
+              type="search"
+              class="book-search-input"
+              placeholder="Tra cứu nhanh thuật ngữ (vd: thể chế, địa tô, CQ7)..."
+              value="${escapeHtml(this.searchQuery)}"
+              aria-label="Tìm kiếm trong sổ tay"
+            >
+            <button type="button" class="book-search-clear" data-action="clear-search" title="Xóa tìm kiếm" hidden>×</button>
+          </div>
+
+          <button type="button" class="book-btn book-btn-accent" data-action="go-game">
+            Luyện tập Minigame →
+          </button>
+        </div>
+
+        <div data-role="search-status"></div>
+
+        <div class="book-layout">
+          <aside class="book-sidebar" aria-label="Mục lục sổ tay">
+            <div class="book-sidebar-header">
+              <span>MỤC LỤC CHƯƠNG 5</span>
+              <button type="button" class="book-sidebar-close" data-action="toggle-toc" aria-label="Đóng mục lục">×</button>
+            </div>
+            <ul class="book-toc-list" data-role="toc-list"></ul>
+          </aside>
+
+          <article class="book-page-sheet" data-role="page-sheet"></article>
+        </div>
+      </div>
+    `;
+
+    this.attachShellEvents();
+  };
+
+  BookController.prototype.renderDynamic = function () {
     const escapeHtml = global.MDParser.escapeHtml;
     const parseMarkdown = global.MDParser.parseMarkdown;
     const current = this.pages[this.currentIndex];
@@ -183,165 +256,127 @@
     const matchingIndices = this.getMatchingPageIndices();
     const hasSearch = this.searchQuery.trim().length >= 2;
 
-    const tocItemsHtml = this.pages
-      .map((page, idx) => {
-        const isActive = idx === this.currentIndex;
-        const isMatch = hasSearch && matchingIndices.includes(idx);
-        return `
-          <li>
-            <button
-              type="button"
-              class="book-toc-item ${isActive ? 'is-active' : ''} ${isMatch ? 'is-match' : ''}"
-              data-page-index="${idx}"
-            >
-              <span class="book-toc-num">${String(idx + 1).padStart(2, '0')}</span>
-              <span class="book-toc-meta">
-                <small>${escapeHtml(page.badge)}</small>
-                <strong>${escapeHtml(page.title)}</strong>
-              </span>
-            </button>
-          </li>
-        `;
-      })
-      .join('');
+    const tocToggleBtn = this.root.querySelector('.book-toc-toggle');
+    if (tocToggleBtn) {
+      tocToggleBtn.setAttribute('aria-expanded', this.isTocOpen ? 'true' : 'false');
+    }
+    const tocToggleLabel = this.root.querySelector('[data-role="toc-toggle-label"]');
+    if (tocToggleLabel) {
+      tocToggleLabel.textContent = `☰ Mục lục (${this.currentIndex + 1}/${total})`;
+    }
 
-    const searchStatusHtml = hasSearch
-      ? `<div class="book-search-status">
-          ${
-            matchingIndices.length
-              ? `Tìm thấy từ khóa ở <strong>${matchingIndices.length}</strong> trang (đã đánh dấu màu vàng).`
-              : `Không tìm thấy từ khóa "<em>${escapeHtml(this.searchQuery)}</em>".`
-          }
-        </div>`
-      : '';
+    const clearBtn = this.root.querySelector('[data-action="clear-search"]');
+    if (clearBtn) {
+      clearBtn.hidden = !this.searchQuery;
+    }
 
-    this.root.innerHTML = `
-      <div class="book-shell">
-        <div class="book-toolbar">
-          <button
-            type="button"
-            class="book-btn book-btn-outline book-toc-toggle"
-            data-action="toggle-toc"
-            aria-expanded="${this.isTocOpen ? 'true' : 'false'}"
-          >
-            ☰ Mục lục (${this.currentIndex + 1}/${total})
-          </button>
-
-          <div class="book-search-box">
-            <input
-              type="search"
-              class="book-search-input"
-              placeholder="Tra cứu nhanh thuật ngữ (vd: thể chế, địa tô, CQ7)..."
-              value="${escapeHtml(this.searchQuery)}"
-              aria-label="Tìm kiếm trong sổ tay"
-            >
+    const statusContainer = this.root.querySelector('[data-role="search-status"]');
+    if (statusContainer) {
+      statusContainer.innerHTML = hasSearch
+        ? `<div class="book-search-status">
             ${
-              this.searchQuery
-                ? '<button type="button" class="book-search-clear" data-action="clear-search" title="Xóa tìm kiếm">×</button>'
-                : ''
+              matchingIndices.length
+                ? `Tìm thấy từ khóa ở <strong>${matchingIndices.length}</strong> trang (đã đánh dấu màu vàng).`
+                : `Không tìm thấy từ khóa "<em>${escapeHtml(this.searchQuery)}</em>".`
             }
-          </div>
+          </div>`
+        : '';
+    }
 
-          <button type="button" class="book-btn book-btn-accent" data-action="go-game">
-            Luyện tập Minigame →
-          </button>
-        </div>
+    const sidebarEl = this.root.querySelector('.book-sidebar');
+    if (sidebarEl) {
+      sidebarEl.classList.toggle('is-open', this.isTocOpen);
+    }
 
-        ${searchStatusHtml}
-
-        <div class="book-layout">
-          <aside class="book-sidebar ${this.isTocOpen ? 'is-open' : ''}" aria-label="Mục lục sổ tay">
-            <div class="book-sidebar-header">
-              <span>MỤC LỤC CHƯƠNG 5</span>
-              <button type="button" class="book-sidebar-close" data-action="toggle-toc" aria-label="Đóng mục lục">×</button>
-            </div>
-            <ul class="book-toc-list">
-              ${tocItemsHtml}
-            </ul>
-          </aside>
-
-          <article class="book-page-sheet is-type-${escapeHtml(current.type)}">
-            <div class="book-page-ribbon">
-              <span class="book-page-badge">${escapeHtml(current.badge)}</span>
-              <span class="book-page-counter">Trang ${this.currentIndex + 1} / ${total}</span>
-            </div>
-
-            <div class="book-page-body markdown-body">
-              ${renderedBody}
-            </div>
-
-            <div class="book-progress-track" aria-hidden="true">
-              <div class="book-progress-fill" style="width: ${progressPercent}%"></div>
-            </div>
-
-            <footer class="book-page-footer">
+    const tocListEl = this.root.querySelector('[data-role="toc-list"]');
+    if (tocListEl) {
+      tocListEl.innerHTML = this.pages
+        .map((page, idx) => {
+          const isActive = idx === this.currentIndex;
+          const isMatch = hasSearch && matchingIndices.includes(idx);
+          return `
+            <li>
               <button
                 type="button"
-                class="book-btn book-btn-outline"
-                data-action="prev"
-                ${this.currentIndex === 0 ? 'disabled' : ''}
+                class="book-toc-item ${isActive ? 'is-active' : ''} ${isMatch ? 'is-match' : ''}"
+                data-page-index="${idx}"
               >
-                ← Trang trước
+                <span class="book-toc-num">${String(idx + 1).padStart(2, '0')}</span>
+                <span class="book-toc-meta">
+                  <small>${escapeHtml(page.badge)}</small>
+                  <strong>${escapeHtml(page.title)}</strong>
+                </span>
               </button>
+            </li>
+          `;
+        })
+        .join('');
+    }
 
-              <div class="book-page-dots" role="tablist" aria-label="Chọn trang nhanh">
-                ${this.pages
-                  .map(
-                    (p, i) => `
-                  <button
-                    type="button"
-                    class="book-dot ${i === this.currentIndex ? 'is-active' : ''}"
-                    data-page-index="${i}"
-                    title="${escapeHtml(p.title)}"
-                    aria-label="Đến trang ${i + 1}: ${escapeHtml(p.title)}"
-                  ></button>
-                `
-                  )
-                  .join('')}
-              </div>
-
-              ${
-                this.currentIndex < total - 1
-                  ? `<button type="button" class="book-btn book-btn-primary" data-action="next">
-                      Trang tiếp →
-                    </button>`
-                  : `<button type="button" class="book-btn book-btn-accent" data-action="go-game">
-                      Vào Trạm Cân Hài Hòa →
-                    </button>`
-              }
-            </footer>
-          </article>
+    const sheetEl = this.root.querySelector('[data-role="page-sheet"]');
+    if (sheetEl) {
+      sheetEl.className = `book-page-sheet is-type-${escapeHtml(current.type)}`;
+      sheetEl.innerHTML = `
+        <div class="book-page-ribbon">
+          <span class="book-page-badge">${escapeHtml(current.badge)}</span>
+          <span class="book-page-counter">Trang ${this.currentIndex + 1} / ${total}</span>
         </div>
-      </div>
-    `;
 
-    this.attachEvents();
+        <div class="book-page-body markdown-body">
+          ${renderedBody}
+        </div>
+
+        <div class="book-progress-track" aria-hidden="true">
+          <div class="book-progress-fill" style="width: ${progressPercent}%"></div>
+        </div>
+
+        <footer class="book-page-footer">
+          <button
+            type="button"
+            class="book-btn book-btn-outline"
+            data-action="prev"
+            ${this.currentIndex === 0 ? 'disabled' : ''}
+          >
+            ← Trang trước
+          </button>
+
+          <div class="book-page-dots" role="tablist" aria-label="Chọn trang nhanh">
+            ${this.pages
+              .map(
+                (p, i) => `
+              <button
+                type="button"
+                class="book-dot ${i === this.currentIndex ? 'is-active' : ''}"
+                data-page-index="${i}"
+                title="${escapeHtml(p.title)}"
+                aria-label="Đến trang ${i + 1}: ${escapeHtml(p.title)}"
+              ></button>
+            `
+              )
+              .join('')}
+          </div>
+
+          ${
+            this.currentIndex < total - 1
+              ? `<button type="button" class="book-btn book-btn-primary" data-action="next">
+                  Trang tiếp →
+                </button>`
+              : `<button type="button" class="book-btn book-btn-accent" data-action="go-game">
+                  Vào Trạm Cân Hài Hòa →
+                </button>`
+          }
+        </footer>
+      `;
+    }
+
+    this.attachDynamicEvents();
   };
 
-  BookController.prototype.attachEvents = function () {
-    const prevBtn = this.root.querySelector('[data-action="prev"]');
-    if (prevBtn) {
-      prevBtn.addEventListener('click', () => this.goToPage(this.currentIndex - 1));
-    }
-
-    const nextBtn = this.root.querySelector('[data-action="next"]');
-    if (nextBtn) {
-      nextBtn.addEventListener('click', () => this.goToPage(this.currentIndex + 1));
-    }
-
-    this.root.querySelectorAll('[data-page-index]').forEach((btn) => {
-      btn.addEventListener('click', () => {
-        const target = parseInt(btn.getAttribute('data-page-index'), 10);
-        if (!Number.isNaN(target)) {
-          this.goToPage(target);
-        }
-      });
-    });
-
+  BookController.prototype.attachShellEvents = function () {
     this.root.querySelectorAll('[data-action="toggle-toc"]').forEach((btn) => {
       btn.addEventListener('click', () => {
         this.isTocOpen = !this.isTocOpen;
-        this.render();
+        this.renderDynamic();
       });
     });
 
@@ -356,7 +391,6 @@
     const searchInput = this.root.querySelector('.book-search-input');
     if (searchInput) {
       searchInput.addEventListener('input', (e) => {
-        const cursorPos = e.target.selectionStart;
         this.searchQuery = e.target.value;
 
         // Tự động chuyển sang trang đầu tiên khớp từ khóa nếu trang hiện tại không khớp
@@ -365,14 +399,7 @@
           this.currentIndex = matches[0];
         }
 
-        this.render();
-        const refreshedInput = this.root.querySelector('.book-search-input');
-        if (refreshedInput) {
-          refreshedInput.focus();
-          if (typeof cursorPos === 'number') {
-            refreshedInput.setSelectionRange(cursorPos, cursorPos);
-          }
-        }
+        this.renderDynamic();
       });
     }
 
@@ -380,29 +407,74 @@
     if (clearBtn) {
       clearBtn.addEventListener('click', () => {
         this.searchQuery = '';
-        this.render();
+        if (searchInput) {
+          searchInput.value = '';
+          searchInput.focus();
+        }
+        this.renderDynamic();
       });
     }
   };
 
-  BookController.prototype.bindGlobalKeys = function () {
-    if (this._keysBound) return;
-    this._keysBound = true;
+  BookController.prototype.attachDynamicEvents = function () {
+    const sheetEl = this.root.querySelector('[data-role="page-sheet"]');
+    if (sheetEl) {
+      const prevBtn = sheetEl.querySelector('[data-action="prev"]');
+      if (prevBtn) {
+        prevBtn.addEventListener('click', () => this.goToPage(this.currentIndex - 1));
+      }
 
-    document.addEventListener('keydown', (e) => {
+      const nextBtn = sheetEl.querySelector('[data-action="next"]');
+      if (nextBtn) {
+        nextBtn.addEventListener('click', () => this.goToPage(this.currentIndex + 1));
+      }
+
+      sheetEl.querySelectorAll('[data-action="go-game"]').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          if (global.App && typeof global.App.switchView === 'function') {
+            global.App.switchView('game');
+          }
+        });
+      });
+    }
+
+    this.root.querySelectorAll('[data-page-index]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const target = parseInt(btn.getAttribute('data-page-index'), 10);
+        if (!Number.isNaN(target)) {
+          this.goToPage(target);
+        }
+      });
+    });
+  };
+
+  BookController.prototype.bindGlobalKeys = function () {
+    if (typeof document === 'undefined') return;
+    if (activeBookKeyHandler) {
+      document.removeEventListener('keydown', activeBookKeyHandler);
+    }
+
+    activeBookKeyHandler = (e) => {
       const viewBook = document.getElementById('view-book');
       if (!viewBook || viewBook.hidden) return;
-      if (e.target && ['INPUT', 'TEXTAREA'].includes(e.target.tagName)) return;
+      const target = e.target;
+      const tag = target && target.tagName;
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || (target && target.isContentEditable)) {
+        return;
+      }
 
       if (e.key === 'ArrowLeft') {
         this.goToPage(this.currentIndex - 1);
       } else if (e.key === 'ArrowRight') {
         this.goToPage(this.currentIndex + 1);
       }
-    });
+    };
+
+    document.addEventListener('keydown', activeBookKeyHandler);
   };
 
-  global.BookModule = {
+  const api = {
+    highlightSearch: highlightSearchHtml,
     init(rootEl, options) {
       if (!rootEl) return null;
       const controller = new BookController(rootEl, options);
@@ -410,4 +482,9 @@
       return controller;
     }
   };
+
+  global.BookModule = api;
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = api;
+  }
 })(typeof window !== 'undefined' ? window : globalThis);

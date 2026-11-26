@@ -201,11 +201,13 @@
 
   /**
    * General-purpose Markdown to HTML converter for notebook pages.
+   * Supports nested ordered/unordered lists based on leading indentation.
    */
   function parseMarkdown(rawMarkdown) {
     const lines = normalizeNewlines(rawMarkdown).split('\n');
     const out = [];
-    let listType = null;
+    // Stack of open lists: { type: 'ul' | 'ol', indent: number, hasOpenLi: boolean }
+    const listStack = [];
     let quoteLines = [];
     let paraLines = [];
 
@@ -215,10 +217,19 @@
       paraLines = [];
     }
 
-    function flushList() {
-      if (!listType) return;
-      out.push(`</${listType}>`);
-      listType = null;
+    function closeTopList() {
+      const top = listStack.pop();
+      if (!top) return;
+      if (top.hasOpenLi) {
+        out.push('</li>');
+      }
+      out.push(`</${top.type}>`);
+    }
+
+    function flushLists() {
+      while (listStack.length) {
+        closeTopList();
+      }
     }
 
     function flushQuote() {
@@ -227,19 +238,51 @@
       quoteLines = [];
     }
 
+    function pushListItem(type, indent, content) {
+      flushParagraph();
+      flushQuote();
+
+      while (listStack.length && listStack[listStack.length - 1].indent > indent) {
+        closeTopList();
+      }
+
+      if (
+        listStack.length &&
+        listStack[listStack.length - 1].indent === indent &&
+        listStack[listStack.length - 1].type !== type
+      ) {
+        closeTopList();
+      }
+
+      if (!listStack.length || listStack[listStack.length - 1].indent < indent) {
+        out.push(`<${type}>`);
+        listStack.push({ type, indent, hasOpenLi: false });
+      } else {
+        const current = listStack[listStack.length - 1];
+        if (current.hasOpenLi) {
+          out.push('</li>');
+          current.hasOpenLi = false;
+        }
+      }
+
+      out.push(`<li>${formatInlineMarkdown(content)}`);
+      listStack[listStack.length - 1].hasOpenLi = true;
+    }
+
     lines.forEach((rawLine) => {
-      const trimmed = rawLine.trim();
+      const expandedLine = rawLine.replace(/\t/g, '  ');
+      const trimmed = expandedLine.trim();
 
       if (!trimmed) {
         flushParagraph();
-        flushList();
+        flushLists();
         flushQuote();
         return;
       }
 
       if (/^---+$/.test(trimmed)) {
         flushParagraph();
-        flushList();
+        flushLists();
         flushQuote();
         out.push('<hr>');
         return;
@@ -248,7 +291,7 @@
       const headingMatch = trimmed.match(/^(#{1,4})\s+(.+)$/);
       if (headingMatch) {
         flushParagraph();
-        flushList();
+        flushLists();
         flushQuote();
         const level = headingMatch[1].length;
         out.push(`<h${level}>${formatInlineMarkdown(headingMatch[2])}</h${level}>`);
@@ -258,42 +301,33 @@
       const quoteMatch = trimmed.match(/^>\s?(.*)$/);
       if (quoteMatch) {
         flushParagraph();
-        flushList();
+        flushLists();
         quoteLines.push(quoteMatch[1]);
         return;
       }
       flushQuote();
 
+      const indentMatch = expandedLine.match(/^(\s*)/);
+      const indent = indentMatch ? indentMatch[1].length : 0;
+
       const ulMatch = trimmed.match(/^[-*]\s+(.+)$/);
       if (ulMatch) {
-        flushParagraph();
-        if (listType !== 'ul') {
-          flushList();
-          listType = 'ul';
-          out.push('<ul>');
-        }
-        out.push(`<li>${formatInlineMarkdown(ulMatch[1])}</li>`);
+        pushListItem('ul', indent, ulMatch[1]);
         return;
       }
 
       const olMatch = trimmed.match(/^\d+\.\s+(.+)$/);
       if (olMatch) {
-        flushParagraph();
-        if (listType !== 'ol') {
-          flushList();
-          listType = 'ol';
-          out.push('<ol>');
-        }
-        out.push(`<li>${formatInlineMarkdown(olMatch[1])}</li>`);
+        pushListItem('ol', indent, olMatch[1]);
         return;
       }
 
-      flushList();
+      flushLists();
       paraLines.push(trimmed);
     });
 
     flushParagraph();
-    flushList();
+    flushLists();
     flushQuote();
 
     return out.join('\n');

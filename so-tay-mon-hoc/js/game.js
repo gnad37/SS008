@@ -17,7 +17,7 @@
 - pan_b_subtitle: An Sinh Xã Hội
 - pan_b_desc: Đại diện cho phương thức phân phối theo chính sách của Nhà nước và các tổ chức xã hội (thuế điều tiết, trợ cấp, an sinh xã hội, phúc lợi). Đây là vế đảm bảo tăng trưởng kinh tế đi đôi với tiến bộ và công bằng xã hội.
 - risk_a: Nền kinh tế phát triển nóng, chạy theo hiệu quả thuần túy, dẫn đến phân hóa giàu nghèo quá mức, bỏ quên người yếu thế.
-- risk_b: Triệt tiêu động lực phấn đấu, rơi vào bẫy phân phối cào bằng như thời kỳ kế hoạch hóa tập trung trước đổi mới.
+- risk_b: Triệt tiêu động lực phấn đấu, rơi vào bẫy phân phối cân bằng như thời kỳ kế hoạch hóa tập trung trước đổi mới.
 - goal: Đóng vai "Nhà Quản Lý Thể Chế", đưa ra các quyết định điều tiết để giữ cán cân ở Trạng Thái Hài Hòa (cân bằng hoàn hảo).
 
 ---
@@ -64,7 +64,7 @@
 - [B] (+54A, +0B) Xóa bỏ hoàn toàn trợ cấp.
 - [C] (+0A, +29B) Giữ nguyên, vì bình quân là công bằng nhất.
 - [D*] (+10A, +10B) Chuyển sang trợ cấp có mục tiêu cho nhóm yếu thế, đồng thời thưởng theo hiệu quả và năng suất lao động.
-**Giải thích:** Trợ cấp tràn lan, cào bằng làm mất động lực. Cần trợ cấp đúng đối tượng yếu thế và khuyến khích theo năng suất, hiệu quả lao động.
+**Giải thích:** Trợ cấp tràn lan, cân bằng làm mất động lực. Cần trợ cấp đúng đối tượng yếu thế và khuyến khích theo năng suất, hiệu quả lao động.
 
 ## Câu 6
 **Tình huống:** Phân loại các hình thức thu nhập.
@@ -91,7 +91,47 @@
 - [B] (+0A, +51B) Tăng thuế riêng với doanh nghiệp tuân thủ đúng pháp luật.
 - [C*] (+10A, +10B) Tăng cường thanh tra, xử lý vi phạm, buộc nộp đủ thuế và đóng bảo hiểm xã hội.
 - [D] (+0A, +55B) Đóng cửa mọi doanh nghiệp có sai phạm.
-**Giải thích:** Thực thi pháp luật nghiêm minh giúp bảo vệ nguồn quỹ an sinh và môi trường cạnh tranh công bằng, không triệt tiêu doanh nghiệp làm ăn chính đáng.`;
+**Giải thích:** Thực thi pháp luật nghiêm minh giúp bảo vệ nguồn quỹ an sinh và môi trường cạnh tranh công bằng, không triệt tiêu doanh nghiệp làm ăn chính đáng.
+
+## Câu 9
+**Tình huống:** Trong quá trình vận hành nền kinh tế thị trường định hướng XHCN ở Việt Nam, một số quy định pháp luật còn chồng chéo và các loại thị trường mới như thị trường vốn, công nghệ vẫn đang ở giai đoạn sơ khai.
+**Câu hỏi:** Đâu là nguyên nhân cốt lõi khiến Việt Nam cần tiếp tục hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa?
+- [A] (-10A, -5B) Tất cả các loại thị trường đã phát triển hoàn chỉnh nên cần thu hẹp vai trò quản lý.
+- [B] (-15A, +5B) Nhà nước không còn vai trò quản lý nền kinh tế trong thời kỳ hội nhập.
+- [C*] (+10A, +10B) Hệ thống thể chế còn thiếu đồng bộ, chưa đầy đủ và hiệu lực, hiệu quả thực thi còn hạn chế.
+- [D] (+10A, -15B) Các doanh nghiệp không cần tuân thủ pháp luật kinh doanh để tự do cạnh tranh.
+**Giải thích:** Hệ thống thể chế kinh tế thị trường ở Việt Nam vẫn còn những hạn chế về tính đồng bộ, sự đầy đủ và hiệu lực thực thi, đòi hỏi phải tiếp tục hoàn thiện để nâng cao hiệu quả quản lý và phát triển kinh tế bền vững.
+
+---
+
+## Câu 10
+**Tình huống:** Doanh nghiệp công nghệ nội địa phát triển thành công phần mềm trí tuệ nhân tạo nhưng lo ngại bị sao chép trái phép, đồng thời gặp vướng mắc trong thủ tục định giá tài sản số để vay vốn mở rộng sản xuất.
+**Câu hỏi:** Nội dung nào sau đây thuộc việc hoàn thiện thể chế về sở hữu nhằm giải quyết vướng mắc trên?
+- [A] (-10A, +5B) Chỉ tập trung phát triển doanh nghiệp nhà nước ở mọi lĩnh vực công nghệ.
+- [B*] (+12A, +8B) Bảo vệ quyền sở hữu tài sản, quyền sở hữu trí tuệ phù hợp với kinh tế số và hoàn thiện pháp luật về đất đai, tài nguyên.
+- [C] (-15A, -10B) Hạn chế quyền sở hữu tài sản của tổ chức và cá nhân để tập trung vào công hữu.
+- [D] (-10A, -15B) Loại bỏ vai trò của pháp luật trong giải quyết tranh chấp dân sự và thương mại.
+**Giải thích:** Hoàn thiện thể chế về sở hữu bao gồm bảo vệ quyền tài sản, hoàn thiện pháp luật về đất đai, tài nguyên, tài sản công, sở hữu trí tuệ (đặc biệt trong kinh tế số, AI) và giải quyết tranh chấp, tạo niềm tin cho các chủ thể đầu tư.
+
+---
+
+## Câu 11
+**Tình huống:** Chính phủ triển khai gói giải pháp đồng bộ hóa hạ tầng pháp lý để các nguồn lực trong nền kinh tế được luân chuyển thông suốt giữa khu vực sản xuất, tài chính và nghiên cứu khoa học.
+**Câu hỏi:** Nhóm nào sau đây bao gồm các loại thị trường cơ bản cần được hoàn thiện và phát triển đồng bộ ở Việt Nam?
+- [A*] (+10A, +10B) Thị trường hàng hóa – dịch vụ, thị trường vốn, thị trường công nghệ và thị trường lao động.
+- [B] (+5A, -5B) Giá cả, cạnh tranh, cung và cầu trên thị trường tự do.
+- [C] (-5A, +5B) Doanh nghiệp nhà nước, doanh nghiệp tư nhân và hợp tác xã.
+- [D] (-5A, -5B) Quyền sở hữu, quyền sử dụng và quyền định đoạt tài sản.
+**Giải thích:** Thị trường hàng hóa – dịch vụ, vốn, công nghệ và lao động là các loại thị trường cơ bản cần phát triển đồng bộ; trong khi giá cả, cạnh tranh, cung và cầu là các yếu tố thuộc cơ chế vận hành thị trường.`;
+
+  /**
+   * Format signed delta for pan score changes (+10, 0, -15).
+   */
+  function formatSignedDelta(value) {
+    const num = Number(value) || 0;
+    if (num > 0) return `+${num}`;
+    return String(num);
+  }
 
   /**
    * Harmony Score = max(0, 100 - |scoreA - scoreB|).
@@ -111,20 +151,20 @@
   }
 
   /**
-   * Final institutional classification at the end of the 8-question session.
+   * Final institutional classification at the end of the session.
    */
-  function classifyState(scoreA, scoreB, correctCount = 0, totalQuestions = 8) {
+  function classifyState(scoreA, scoreB, correctCount = 0, totalQuestions = 11) {
     const diff = scoreA - scoreB;
     const absDiff = Math.abs(diff);
 
-    if (absDiff === 0 && correctCount === totalQuestions) {
+    if (absDiff <= 5 && correctCount === totalQuestions) {
       return {
         code: 'perfect',
         title: 'Trạng Thái Hài Hòa Hoàn Hảo',
         tone: 'harmony',
         badge: 'Cân bằng tuyệt đối',
         description:
-          'Bạn đã điều tiết xuất sắc cả 8 tình huống thể chế: giữ vững động lực thị trường của Đĩa A song hành cùng an sinh và công bằng xã hội ở Đĩa B.'
+          `Bạn đã điều tiết xuất sắc cả ${totalQuestions} tình huống thể chế: giữ vững động lực thị trường của Đĩa A song hành cùng an sinh và công bằng xã hội ở Đĩa B.`
       };
     }
 
@@ -164,11 +204,11 @@
     if (diff < -60) {
       return {
         code: 'severe-b',
-        title: 'Mất Cân Bằng Nghiêm Trọng — Rơi Vào Bẫy Cào Bằng',
+        title: 'Mất Cân Bằng Nghiêm Trọng — Rơi Vào Bẫy Cân Bằng',
         tone: 'danger-b',
         badge: 'Rủi ro triệt tiêu động lực',
         description:
-          'Đĩa B quá nặng so với Đĩa A: can thiệp hành chính và phân phối bình quân quá mức dễ triệt tiêu động lực sáng tạo, quay lại bẫy cào bằng.'
+          'Đĩa B quá nặng so với Đĩa A: can thiệp hành chính và phân phối bình quân quá mức dễ triệt tiêu động lực sáng tạo, quay lại bẫy cân bằng.'
       };
     }
 
@@ -236,7 +276,7 @@
         tone: 'danger-b',
         note:
           (meta && meta.riskB) ||
-          'Triệt tiêu động lực phấn đấu, rơi vào bẫy phân phối cào bằng như thời kỳ kế hoạch hóa tập trung trước đổi mới.'
+          'Triệt tiêu động lực phấn đấu, rơi vào bẫy phân phối cân bằng như thời kỳ kế hoạch hóa tập trung trước đổi mới.'
       };
     }
 
@@ -246,7 +286,7 @@
       tone: 'warn-b',
       note:
         (meta && meta.riskB) ||
-        'Can thiệp điều tiết đang lấn át động lực thị trường; lưu ý tránh rơi vào xu hướng phân phối cào bằng.'
+        'Can thiệp điều tiết đang lấn át động lực thị trường; lưu ý tránh rơi vào xu hướng phân phối cân bằng.'
     };
   }
 
@@ -312,7 +352,7 @@
         </defs>
 
         <!-- Subtle background halo -->
-        <circle cx="210" cy="118" r="88" fill="#F2E7D3" opacity="0.55"></circle>
+        <circle cx="210" cy="118" r="88" fill="rgba(194, 146, 56, 0.14)"></circle>
 
         <!-- Graduated Equilibrium Arc -->
         <path d="M 164 56 A 58 58 0 0 1 256 56" fill="none" stroke="#C8B99E" stroke-width="2.5" stroke-linecap="round"></path>
@@ -509,7 +549,7 @@
     ];
     const rows = (sortedEntries || []).map((entry, idx) => {
       const rank = entry.rank || idx + 1;
-      const correctStr = `${entry.correctCount}/${entry.totalQuestions || 8}`;
+      const correctStr = `${entry.correctCount}/${entry.totalQuestions || 11}`;
       return [
         rank,
         entry.fullName,
@@ -890,7 +930,7 @@
         fullName: String(raw.fullName || '').trim(),
         harmony: Number(raw.harmony) || 0,
         correctCount: Number(raw.correctCount) || 0,
-        totalQuestions: Number(raw.totalQuestions) || 8,
+        totalQuestions: Number(raw.totalQuestions) || 11,
         scoreA: Number(raw.scoreA) || 0,
         scoreB: Number(raw.scoreB) || 0,
         durationMs: Math.max(0, Math.round(Number(raw.durationMs) || 0)),
@@ -1171,7 +1211,7 @@
             <td class="col-harmony">
               <strong class="lb-harmony-val">${entry.harmony}</strong><span>/100</span>
             </td>
-            <td class="col-correct">${entry.correctCount}/${entry.totalQuestions || 8}</td>
+            <td class="col-correct">${entry.correctCount}/${entry.totalQuestions || 11}</td>
             <td class="col-time">${formatDuration(entry.durationMs, true)}</td>
             <td class="col-state">
               <span class="status-pill ${toneCls}">${esc(entry.classificationTitle || 'Hoàn thành')}</span>
@@ -1352,7 +1392,9 @@
         const avgHarmony = total
           ? Math.round(entries.reduce((s, e) => s + (Number(e.harmony) || 0), 0) / total)
           : 0;
-        const perfectCount = entries.filter((e) => e.harmony === 100).length;
+        const perfectCount = entries.filter(
+          (e) => e.classificationCode === 'perfect' || e.harmony === 100
+        ).length;
         const fastestMs = total
           ? entries.reduce((min, e) => Math.min(min, Number(e.durationMs) || min), entries[0].durationMs)
           : null;
@@ -1367,7 +1409,7 @@
             <strong>${total ? `${avgHarmony}/100` : '—'}</strong>
           </div>
           <div class="lb-stat-card card-paper">
-            <span>Đạt 100 Điểm Hài Hòa</span>
+            <span>Đạt Hài Hòa Hoàn Hảo</span>
             <strong>${perfectCount}</strong>
           </div>
           <div class="lb-stat-card card-paper">
@@ -1399,7 +1441,7 @@
                       <span class="podium-mssv">${esc(item.mssv)}</span>
                       <div class="podium-metrics">
                         <span><strong>${item.harmony}</strong>/100 Hài Hòa</span>
-                        <span><strong>${item.correctCount}/${item.totalQuestions || 8}</strong> câu đúng</span>
+                        <span><strong>${item.correctCount}/${item.totalQuestions || 11}</strong> câu đúng</span>
                         <span><strong>${formatDuration(item.durationMs, true)}</strong></span>
                       </div>
                     </article>
@@ -1548,7 +1590,7 @@
 
     let rawMd = DEFAULT_QUIZ_MD;
     try {
-      const response = await fetch(quizUrl);
+      const response = await fetch(quizUrl, { cache: 'no-cache' });
       if (response && response.ok) {
         const fetchedText = await response.text();
         if (fetchedText && fetchedText.trim()) {
@@ -1834,7 +1876,7 @@
           noticeEl.innerHTML = `
             <strong>Lưu ý lượt đầu đã được ghi nhận:</strong>
             MSSV <code>${esc(existing.mssv)}</code> (${esc(existing.fullName)}) đã đạt
-            <strong>${existing.harmony}/100</strong> Hài Hòa • <strong>${existing.correctCount}/${existing.totalQuestions || 8}</strong> câu đúng • <strong>${formatDuration(existing.durationMs, true)}</strong>.
+            <strong>${existing.harmony}/100</strong> Hài Hòa • <strong>${existing.correctCount}/${existing.totalQuestions || 11}</strong> câu đúng • <strong>${formatDuration(existing.durationMs, true)}</strong>.
             Bạn vẫn có thể chơi lại để luyện tập nhưng hệ thống không ghi đè thành tích đầu tiên.
           `;
         } else {
@@ -1943,40 +1985,48 @@
       const deltaBEl = containerEl.querySelector('#last-delta-b');
       if (deltaAEl) {
         deltaAEl.textContent =
-          typeof deltaA === 'number' && deltaA > 0 ? `+${deltaA}` : '+0';
+          typeof deltaA === 'number' ? formatSignedDelta(deltaA) : '0';
+        deltaAEl.classList.toggle('is-neg', typeof deltaA === 'number' && deltaA < 0);
         deltaAEl.hidden = typeof deltaA !== 'number';
       }
       if (deltaBEl) {
         deltaBEl.textContent =
-          typeof deltaB === 'number' && deltaB > 0 ? `+${deltaB}` : '+0';
+          typeof deltaB === 'number' ? formatSignedDelta(deltaB) : '0';
+        deltaBEl.classList.toggle('is-neg', typeof deltaB === 'number' && deltaB < 0);
         deltaBEl.hidden = typeof deltaB !== 'number';
       }
 
       const popA = containerEl.querySelector('#delta-a-pop');
       const popB = containerEl.querySelector('#delta-b-pop');
       if (popA) {
-        popA.classList.remove('is-active');
-        if (typeof deltaA === 'number' && deltaA > 0) {
-          popA.textContent = `+${deltaA} Đĩa A`;
+        popA.classList.remove('is-active', 'is-negative');
+        if (typeof deltaA === 'number' && deltaA !== 0) {
+          popA.textContent = `${formatSignedDelta(deltaA)} Đĩa A`;
+          popA.classList.toggle('is-negative', deltaA < 0);
           void popA.offsetWidth;
           popA.classList.add('is-active');
         }
       }
       if (popB) {
-        popB.classList.remove('is-active');
-        if (typeof deltaB === 'number' && deltaB > 0) {
-          popB.textContent = `+${deltaB} Đĩa B`;
+        popB.classList.remove('is-active', 'is-negative');
+        if (typeof deltaB === 'number' && deltaB !== 0) {
+          popB.textContent = `${formatSignedDelta(deltaB)} Đĩa B`;
+          popB.classList.toggle('is-negative', deltaB < 0);
           void popB.offsetWidth;
           popB.classList.add('is-active');
         }
       }
 
       const harmonyValEl = containerEl.querySelector('#val-harmony');
+      const harmonyTrackEl = containerEl.querySelector('.harmony-track');
       const harmonyFillEl = containerEl.querySelector('#harmony-fill');
       const harmonyFormulaEl = containerEl.querySelector('#harmony-formula');
       if (harmonyValEl) {
         harmonyValEl.textContent = String(harmony);
         harmonyValEl.className = `harmony-number tone-${liveStatus.tone}`;
+      }
+      if (harmonyTrackEl) {
+        harmonyTrackEl.setAttribute('aria-valuenow', String(harmony));
       }
       if (harmonyFillEl) {
         harmonyFillEl.style.width = `${harmony}%`;
@@ -2049,8 +2099,8 @@
 
           const deltaChips = state.answered
             ? `<span class="choice-deltas">
-                 <span class="delta-chip chip-a ${opt.deltaA > 0 ? 'has-val' : ''}">Đĩa A +${opt.deltaA}</span>
-                 <span class="delta-chip chip-b ${opt.deltaB > 0 ? 'has-val' : ''}">Đĩa B +${opt.deltaB}</span>
+                 <span class="delta-chip chip-a ${opt.deltaA > 0 ? 'has-val' : opt.deltaA < 0 ? 'is-neg' : ''}">Đĩa A ${formatSignedDelta(opt.deltaA)}</span>
+                 <span class="delta-chip chip-b ${opt.deltaB > 0 ? 'has-val' : opt.deltaB < 0 ? 'is-neg' : ''}">Đĩa B ${formatSignedDelta(opt.deltaB)}</span>
                </span>`
             : '';
 
@@ -2075,8 +2125,8 @@
       if (state.answered && chosenOpt) {
         const isLast = state.currentIndex === total - 1;
         const feedbackTag = chosenOpt.isOptimal
-          ? '<span class="feedback-badge is-ok">Quyết định hài hòa (+10 Đĩa A, +10 Đĩa B)</span>'
-          : `<span class="feedback-badge is-skew">Gây lệch cán cân (Đĩa A +${chosenOpt.deltaA}, Đĩa B +${chosenOpt.deltaB})</span>`;
+          ? `<span class="feedback-badge is-ok">Quyết định hài hòa (Đĩa A ${formatSignedDelta(chosenOpt.deltaA)}, Đĩa B ${formatSignedDelta(chosenOpt.deltaB)})</span>`
+          : `<span class="feedback-badge is-skew">Gây lệch cán cân (Đĩa A ${formatSignedDelta(chosenOpt.deltaA)}, Đĩa B ${formatSignedDelta(chosenOpt.deltaB)})</span>`;
 
         explanationHtml = `
           <div class="explanation-box ${chosenOpt.isOptimal ? 'is-ok' : 'is-skew'}">
@@ -2117,7 +2167,7 @@
             <span class="q-counter">Tình huống ${state.currentIndex + 1} / ${total}</span>
             <span class="keyboard-hint">Phím tắt: A–D hoặc 1–4${state.answered ? ' • Enter để tiếp tục' : ''}</span>
           </div>
-          <div class="step-dots" aria-label="Tiến độ 8 câu">${dotsHtml}</div>
+          <div class="step-dots" aria-label="Tiến độ ${total} câu">${dotsHtml}</div>
         </div>
 
         ${situationHtml}
@@ -2320,7 +2370,7 @@
             <div>
               <strong>ℹ MSSV ${esc(state.player.mssv)} đã được ghi nhận ở lượt chơi đầu tiên</strong>
               <span>
-                Hệ thống chỉ lưu kết quả đầu tiên (${prev.harmony}/100 Hài Hòa • ${prev.correctCount}/${prev.totalQuestions || 8} câu đúng • ${formatDuration(prev.durationMs, true)})${rankInfo ? ` — ${rankInfo}` : ''}. Lượt này không ghi đè BXH.
+                Hệ thống chỉ lưu kết quả đầu tiên (${prev.harmony}/100 Hài Hòa • ${prev.correctCount}/${prev.totalQuestions || 11} câu đúng • ${formatDuration(prev.durationMs, true)})${rankInfo ? ` — ${rankInfo}` : ''}. Lượt này không ghi đè BXH.
               </span>
             </div>
           </div>
@@ -2390,7 +2440,7 @@
             ? `<p class="review-optimal">
                  <strong>Phương án hài hòa:</strong>
                  [${esc(optimalOption.key)}] ${esc(optimalOption.text)}
-                 <span class="review-mini-delta">(Đĩa A +${optimalOption.deltaA}, Đĩa B +${optimalOption.deltaB})</span>
+                 <span class="review-mini-delta">(Đĩa A ${formatSignedDelta(optimalOption.deltaA)}, Đĩa B ${formatSignedDelta(optimalOption.deltaB)})</span>
                </p>`
             : '';
 
@@ -2407,7 +2457,7 @@
               <p class="review-chosen">
                 <strong>Bạn chọn:</strong>
                 [${esc(chosenOption.key)}] ${esc(chosenOption.text)}
-                <span class="review-mini-delta">(Đĩa A +${chosenOption.deltaA}, Đĩa B +${chosenOption.deltaB})</span>
+                <span class="review-mini-delta">(Đĩa A ${formatSignedDelta(chosenOption.deltaA)}, Đĩa B ${formatSignedDelta(chosenOption.deltaB)})</span>
               </p>
               ${optimalRow}
               <p class="review-exp"><strong>Giải thích:</strong> ${esc(question.explanation)}</p>
@@ -2501,7 +2551,7 @@
           </div>
 
           <div class="summary-review card-paper">
-            <h3 class="review-heading">Nhật Ký 8 Quyết Định Điều Tiết</h3>
+            <h3 class="review-heading">Nhật Ký ${total} Quyết Định Điều Tiết</h3>
             <div class="review-list">
               ${reviewHtml}
             </div>
@@ -2609,6 +2659,7 @@
   const api = {
     DEFAULT_QUIZ_MD,
     LEADERBOARD_CONFIG,
+    formatSignedDelta,
     computeHarmony,
     computeTiltAngle,
     classifyState,

@@ -10,7 +10,7 @@
 - pan_b_subtitle: An Sinh Xã Hội
 - pan_b_desc: Đại diện cho phương thức phân phối theo chính sách của Nhà nước và các tổ chức xã hội (thuế điều tiết, trợ cấp, an sinh xã hội, phúc lợi). Đây là vế đảm bảo tăng trưởng kinh tế đi đôi với tiến bộ và công bằng xã hội.
 - risk_a: Nền kinh tế phát triển nóng, chạy theo hiệu quả thuần túy, dẫn đến phân hóa giàu nghèo quá mức, bỏ quên người yếu thế.
-- risk_b: Triệt tiêu động lực phấn đấu, rơi vào bẫy phân phối cào bằng như thời kỳ kế hoạch hóa tập trung trước đổi mới.
+- risk_b: Triệt tiêu động lực phấn đấu, rơi vào bẫy phân phối cân bằng như thời kỳ kế hoạch hóa tập trung trước đổi mới.
 - goal: Đóng vai "Nhà Quản Lý Thể Chế", đưa ra các quyết định điều tiết để giữ cán cân ở Trạng Thái Hài Hòa (cân bằng hoàn hảo).
 
 ---
@@ -57,7 +57,7 @@
 - [B] (+54A, +0B) Xóa bỏ hoàn toàn trợ cấp.
 - [C] (+0A, +29B) Giữ nguyên, vì bình quân là công bằng nhất.
 - [D*] (+10A, +10B) Chuyển sang trợ cấp có mục tiêu cho nhóm yếu thế, đồng thời thưởng theo hiệu quả và năng suất lao động.
-**Giải thích:** Trợ cấp tràn lan, cào bằng làm mất động lực. Cần trợ cấp đúng đối tượng yếu thế và khuyến khích theo năng suất, hiệu quả lao động.
+**Giải thích:** Trợ cấp tràn lan, cân bằng làm mất động lực. Cần trợ cấp đúng đối tượng yếu thế và khuyến khích theo năng suất, hiệu quả lao động.
 
 ## Câu 6
 **Tình huống:** Phân loại các hình thức thu nhập.
